@@ -1,0 +1,34 @@
+.file-item127{
+    li {
+        list-style: none;
+        background-color: #eef2f2;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 12pt;
+        margin-bottom: 12pt;
+
+        svg {
+            color: #00C6D7;
+            &:first-child {
+                font-size: 1.2em;
+                margin-right: 0.8em;
+            }
+        }
+
+        p {
+            flex: 1;
+            font-size: 12pt;
+            color: #00629B;
+        }
+
+        .actions {
+            justify-self: flex-end;
+            cursor: pointer;
+
+            .fa-spinner {
+                font-size: 1.2em;
+            }
+        }
+    }
+}

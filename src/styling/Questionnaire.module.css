@@ -1,0 +1,79 @@
+#prompt {
+  width:fit-content;
+  border-bottom: 1px solid black;
+}
+
+#question-border {
+  height: 400px;
+  margin:auto;
+  margin-top: 40px;
+  border: 2px solid #C4C4C4;
+  width: 600px;
+  position: relative;
+}
+
+#button_1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;  
+  border:none; 
+  background-color: white;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#button_2 {
+  position: absolute; 
+  top: 0px;
+  bottom: 0px;
+  right: 0px;   
+  border:none;
+  background-color: white;
+}
+
+.arrow {
+  max-width: 30px;
+  height: auto;
+}
+
+#q {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  right: 345px; /* Change this according to width of border */
+}
+
+.qCheckbox {
+  width: 14pt;
+  height: 14pt;
+  right: 0pt;
+}
+
+.table {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  left: 270px; /* Change this according to width of border */ 
+  width: 280px;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+#td2 {
+  width: 15pt;
+}
+
+#t {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  left: 270px; /* Change this according to width of border */ 
+  width: 280px;
+}
+
+.bottom {
+  text-align: center;
+}
